@@ -1,0 +1,24 @@
+{
+  "name": "gorgs",
+  "version": "1.0.0",
+  "description": "Synchronize github issues for an organization in memory.",
+  "repository": "JustinBeckwith/gorgs",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "c8 mocha"
+  },
+  "keywords": [
+    "github"
+  ],
+  "author": "Justin Beckwith <justin.beckwith@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gaxios": "^2.0.1",
+    "parse-link-header": "^1.0.1"
+  },
+  "devDependencies": {
+    "c8": "^5.0.1",
+    "mocha": "^6.2.0"
+  }
+}
